@@ -11,8 +11,8 @@
 import PackageDescription
 
 let package = Package(
-    name: "Dealer",
+    name: "ConnectionDemo",
     dependencies: [
-        .Package(url: "https://github.com/apple/example-package-deckofplayingcards.git", majorVersion: 1),
+        .Package(url: "https://github.com/kmussel/testconnection.git", majorVersion:1),
     ]
 )
